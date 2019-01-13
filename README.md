@@ -105,7 +105,7 @@ results; to use it, change to the `vis` directory and start a local HTTP server:
 
 ```bash
 cd vis
-python -m SimpleHTTPServer 8181
+python -m http.server 8181
 ```
 
 Then point your web browser to [http://localhost:8181/view_results.html](http://localhost:8181/view_results.html).
